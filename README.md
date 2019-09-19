@@ -4,21 +4,21 @@ This program uses a mapping scheme as one of the inputs, the input file which co
 
 ## How to use the program
 After compiling the following command:
-'''
+```
 To compile the program:
 make
 To clean after program is finished being used:
 make clean
-'''
+```
 You can either run the program with the following commands:
-'''
+```
 ./encrpt -t <mappingfile> -i <inputfile> -m <encryption mode>
 For encrption:
 ./encrpt -t mappingfile.csv -i inputfile.txt -m 1
 
 For decryption:
 ./encrpt -t mappingfile.csv -i inputfile.txt -m 2
-'''
+```
 
 Each word to be encrpted/decrpted must be on a seperate line
 
