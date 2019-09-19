@@ -7,6 +7,7 @@ After compiling the following command:
 ```
 To compile the program:
 make
+
 To clean after program is finished being used:
 make clean
 ```
