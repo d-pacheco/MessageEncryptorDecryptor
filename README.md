@@ -13,6 +13,7 @@ make clean
 You can either run the program with the following commands:
 ```
 ./encrpt -t <mappingfile> -i <inputfile> -m <encryption mode>
+
 For encrption:
 ./encrpt -t mappingfile.csv -i inputfile.txt -m 1
 
